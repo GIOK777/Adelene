@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(./assets/fonts/avenir_roman_12.otf);
+    font-family: myfont2;
+    src: url(./assets/fonts/Didot\ LT\ Std\ Italic.otf);
+}
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+
+
+.search{
+    border-bottom: 1px solid #bc4c21;;
+    height: fit-content;
+}
+.search input{
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+
+.adalene h1{
+    font-size: 40px;
+    color: #bc4c21;
+    font-family: myfont2;
+}
+
+
+.right_footer{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.right_footer .icons svg{
+    width: 20px;
+    height: 20px;
+}
+
+
+.login{
+    color: #bc4c21;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    column-gap:15px;
+}
+.cart{
+    color: #bc4c21;
+}
+
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap:70px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: myfont;
+}
+
+
+
+.mainbox{
+    text-align: center;
+    height: 800px;
+    background-image: url(./assets/image/ea71bb_f6afb11f2c8f406ca1c8993c2eca99e7~mv2_d_11495_6131_s_4_2.webp);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.mainbox h1{
+    color: white;
+    margin-bottom: 50px;
+}
+.mainbox span{
+    color: white;
+    border: 1px solid white;
+    padding: 20px 30px; 
+}
+.mainbox h1,
+.manbox a{
+    padding-top: 300px;
+}
+
